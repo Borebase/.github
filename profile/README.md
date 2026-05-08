@@ -12,8 +12,14 @@
 
 <p align="center">
   <a href="https://borebase.io"><img src="https://img.shields.io/badge/Website-borebase.io-478555?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/></a>&nbsp;
-  <a href="https://github.com/Borebase/.github/releases"><img src="https://img.shields.io/badge/Release-v0.1.0--alpha-blue?style=for-the-badge&logo=semantic-release&logoColor=white" alt="Release"/></a>&nbsp;
-  <img src="https://img.shields.io/badge/Status-Active_Development-478555?style=for-the-badge" alt="Status"/>
+  <a href="https://github.com/Borebase/.github/releases"><img src="https://img.shields.io/github/v/release/Borebase/.github?include_prereleases&style=for-the-badge&label=Release&color=blue&logo=github&logoColor=white" alt="Release"/></a>&nbsp;
+  <img src="https://img.shields.io/github/release-date-pre/Borebase/.github?style=for-the-badge&label=Updated&color=555555&logo=calendar&logoColor=white" alt="Last Updated"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-Commercial-151515?style=for-the-badge&logo=briefcase&logoColor=white" alt="License"/>&nbsp;
+  <img src="https://img.shields.io/badge/Interface-EN_%7C_RU-555555?style=for-the-badge&logo=translate&logoColor=white" alt="Languages"/>&nbsp;
+  <a href="mailto:hello@borebase.io"><img src="https://img.shields.io/badge/Contact-hello@borebase.io-478555?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact"/></a>
 </p>
 
 <br/>
