@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#151515;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2332;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#478555;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5ba86b;stop-opacity:1" />
+    </linearGradient>
+    <!-- Grid pattern for geo/engineering feel -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.3" opacity="0.06"/>
+    </pattern>
+    <!-- Dot pattern -->
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.8" fill="#478555" opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="300" fill="url(#dots)"/>
+
+  <!-- Accent line top -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accent)"/>
+
+  <!-- Decorative vertical lines (like borehole columns) -->
+  <line x1="80" y1="30" x2="80" y2="270" stroke="#478555" stroke-width="1" opacity="0.12"/>
+  <line x1="82" y1="50" x2="82" y2="250" stroke="#478555" stroke-width="0.5" opacity="0.08"/>
+  <line x1="1120" y1="30" x2="1120" y2="270" stroke="#478555" stroke-width="1" opacity="0.12"/>
+  <line x1="1118" y1="50" x2="1118" y2="250" stroke="#478555" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Subtle depth markers on left line -->
+  <line x1="70" y1="80" x2="90" y2="80" stroke="#478555" stroke-width="0.5" opacity="0.2"/>
+  <line x1="70" y1="130" x2="90" y2="130" stroke="#478555" stroke-width="0.5" opacity="0.2"/>
+  <line x1="70" y1="180" x2="90" y2="180" stroke="#478555" stroke-width="0.5" opacity="0.2"/>
+  <line x1="70" y1="230" x2="90" y2="230" stroke="#478555" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Main title -->
+  <text x="600" y="115" font-family="'Segoe UI', Arial, sans-serif" font-size="56" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="3">BOREBASE</text>
+
+  <!-- Subtitle line -->
+  <line x1="400" y1="140" x2="800" y2="140" stroke="url(#accent)" stroke-width="2" opacity="0.6"/>
+
+  <!-- Tagline -->
+  <text x="600" y="175" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#a0aab5" text-anchor="middle" letter-spacing="2">GEOTECHNICAL DATA PLATFORM</text>
+
+  <!-- Description -->
+  <text x="600" y="215" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#6b7785" text-anchor="middle" letter-spacing="1">Project Management  ·  Cloud Storage  ·  Data Analysis  ·  Report Generation</text>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="297" width="1200" height="3" fill="url(#accent)" opacity="0.5"/>
+
+  <!-- Corner accents -->
+  <path d="M 0 0 L 30 0 L 0 30 Z" fill="#478555" opacity="0.15"/>
+  <path d="M 1200 0 L 1170 0 L 1200 30 Z" fill="#478555" opacity="0.15"/>
+  <path d="M 0 300 L 30 300 L 0 270 Z" fill="#478555" opacity="0.08"/>
+  <path d="M 1200 300 L 1170 300 L 1200 270 Z" fill="#478555" opacity="0.08"/>
+</svg>
