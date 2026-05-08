@@ -18,7 +18,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/License-Commercial-151515?style=for-the-badge&logo=briefcase&logoColor=white" alt="License"/>&nbsp;
-  <img src="https://img.shields.io/badge/Interface-EN_%7C_RU-555555?style=for-the-badge&logo=translate&logoColor=white" alt="Languages"/>&nbsp;
+  <img src="https://img.shields.io/badge/%F0%9F%87%AC%F0%9F%87%A7_EN_%7C_%F0%9F%87%B1%F0%9F%87%BB_LV-555555?style=for-the-badge" alt="Languages"/>&nbsp;
   <a href="mailto:hello@borebase.io"><img src="https://img.shields.io/badge/Contact-hello@borebase.io-478555?style=for-the-badge&logo=gmail&logoColor=white" alt="Contact"/></a>
 </p>
 
