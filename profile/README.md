@@ -3,6 +3,14 @@
 </p>
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Borebase/.github/main/profile/logo_full_white.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Borebase/.github/main/profile/logo_full_black.svg">
+    <img alt="Borebase" src="https://raw.githubusercontent.com/Borebase/.github/main/profile/logo_full_black.svg" height="50">
+  </picture>
+</p>
+
+<p align="center">
   <a href="https://borebase.io"><img src="https://img.shields.io/badge/Website-borebase.io-478555?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/></a>&nbsp;
   <a href="https://github.com/Borebase/.github/releases"><img src="https://img.shields.io/badge/Release-v0.1.0--alpha-blue?style=for-the-badge&logo=semantic-release&logoColor=white" alt="Release"/></a>&nbsp;
   <img src="https://img.shields.io/badge/Status-Active_Development-478555?style=for-the-badge" alt="Status"/>
