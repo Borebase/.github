@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#151515;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a2332;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#478555;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#5ba86b;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-width="0.3" opacity="0.06"/>
+    </pattern>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="0.8" fill="#478555" opacity="0.15"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="300" fill="url(#dots)"/>
+
+  <!-- Accent line top -->
+  <rect x="0" y="0" width="1200" height="3" fill="url(#accent)"/>
+
+  <!-- Decorative vertical lines (borehole columns) -->
+  <line x1="80" y1="30" x2="80" y2="270" stroke="#ffffff" stroke-width="1" opacity="0.06"/>
+  <line x1="82" y1="50" x2="82" y2="250" stroke="#ffffff" stroke-width="0.5" opacity="0.04"/>
+  <line x1="1120" y1="30" x2="1120" y2="270" stroke="#ffffff" stroke-width="1" opacity="0.06"/>
+  <line x1="1118" y1="50" x2="1118" y2="250" stroke="#ffffff" stroke-width="0.5" opacity="0.04"/>
+
+  <!-- Depth markers -->
+  <line x1="70" y1="80" x2="90" y2="80" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+  <line x1="70" y1="130" x2="90" y2="130" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+  <line x1="70" y1="180" x2="90" y2="180" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+  <line x1="70" y1="230" x2="90" y2="230" stroke="#ffffff" stroke-width="0.5" opacity="0.08"/>
+
+  <!-- Borebase logo symbol (white paths only, no background) -->
+  <!-- Logo bbox: x=3–83, y=12–89. scale(1.1): w=88, h=85. Center x: 600-43*1.1=553. Bottom: 18+89*1.1=116 -->
+  <g transform="translate(553, 18) scale(1.1)">
+    <path d="M52.5603 59.3473C62.5973 51.0607 66.9583 39.8415 62.3009 34.2886C57.6434 28.7356 45.7312 30.9517 35.6941 39.2382C25.6571 47.5248 21.2961 58.744 25.9535 64.297C30.611 69.8499 42.5232 67.6339 52.5603 59.3473Z" fill="white"/>
+    <path d="M34.0126 31.4327C52.4095 16.2442 74.491 12.4776 83.333 23.0196C92.1747 33.5617 84.4288 54.4203 66.0321 69.6087C47.6352 84.797 25.5538 88.5636 16.7118 78.0218C7.86993 67.4798 15.6157 46.6211 34.0126 31.4327ZM71.1068 29.4791C64.5802 21.6976 48.1261 24.6058 34.3556 35.9747C20.585 47.3436 14.7127 62.8682 21.2393 70.6498C27.7659 78.4313 44.22 75.5231 57.9906 64.1542C71.7611 52.7853 77.6335 37.2606 71.1068 29.4791Z" fill="white"/>
+  </g>
+
+  <!-- Text "BOREBASE" below logo — baseline at 160, top of caps ~128, gap from logo bottom (116) is 12px -->
+  <text x="600" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="44" font-weight="700" fill="#ffffff" text-anchor="middle" letter-spacing="6">BOREBASE</text>
+
+  <!-- Subtitle line -->
+  <line x1="430" y1="178" x2="770" y2="178" stroke="url(#accent)" stroke-width="2" opacity="0.5"/>
+
+  <!-- Tagline -->
+  <text x="600" y="208" font-family="'Segoe UI', Arial, sans-serif" font-size="15" fill="#a0aab5" text-anchor="middle" letter-spacing="2">GEOTECHNICAL DATA PLATFORM</text>
+
+  <!-- Sub-description -->
+  <text x="600" y="240" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#6b7785" text-anchor="middle" letter-spacing="1">Project Management  ·  Cloud Storage  ·  Data Analysis  ·  Report Generation</text>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="297" width="1200" height="3" fill="url(#accent)" opacity="0.5"/>
+
+  <!-- Corner accents -->
+  <path d="M 0 0 L 30 0 L 0 30 Z" fill="#1a1a1a" opacity="0.4"/>
+  <path d="M 1200 0 L 1170 0 L 1200 30 Z" fill="#1a1a1a" opacity="0.4"/>
+  <path d="M 0 300 L 30 300 L 0 270 Z" fill="#1a1a1a" opacity="0.3"/>
+  <path d="M 1200 300 L 1170 300 L 1200 270 Z" fill="#1a1a1a" opacity="0.3"/>
+</svg>
